@@ -6,7 +6,7 @@ presenter: Simon Brown
 date_watched: 1689379200
 rating: 5
 venue: GOTO 2018
-video_url: https://www.youtube.com/watch?v=5OjqD-ow8GE&list=LL&index=63&t=21s
+video_url: https://www.youtube.com/watch?v=5OjqD-ow8GE
 categories:
   - Software Architecture
   - Modularity
