@@ -26,10 +26,7 @@
                     <div class="flex items-start">
                         @if ($youtube_thumbnail)
                             <div class="conference-thumbnail">
-                                <img
-                                        src="{{ $youtube_thumbnail }}"
-                                        alt="{{ $conference->title }} thumbnail"
-                                >
+                                <img src="{{ $youtube_thumbnail }}" alt="{{ $conference->title }} thumbnail">
                             </div>
                         @endif
                         <div class="flex-grow">
@@ -56,16 +53,12 @@
                             @if ($conference->categories)
                                 <div class="mt-3 flex flex-wrap gap-2">
                                     @foreach ($conference->categories as $category)
-                                        <span class="category-tag">
-                                {{ $category }}
-                            </span>
+                                        <span class="category-tag">{{ $category }}</span>
                                     @endforeach
                                 </div>
                             @endif
 
-                            <div class="mt-3">
-                                {{ $conference->description }}
-                            </div>
+                            <div class="mt-3">{{ $conference->description }}</div>
 
                             <div class="mt-4">
                                 <a href="{{ $conference->getUrl() }}"

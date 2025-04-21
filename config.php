@@ -24,7 +24,7 @@ $githubToken = getenv('GITHUB_TOKEN') ?: null;
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Mohammed Alama - Portfolio',
+    'title' => 'Mohammed Alama',
     'description' => 'Mohammed Alama - Clean coder specializing in PHP, Laravel, and modern web technologies.',
     'name' => 'Mohammed Alama',
     'email' => 'contact@alama.dev',
