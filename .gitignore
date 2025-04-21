@@ -8,8 +8,17 @@ npm-debug.log
 
 # Optional ignores
 # /build_staging/
-# /build_production/
+/build_production/
 # /source/assets/build/
 
 # Environment variables
 .env
+
+# Jigsaw build files
+/build_local
+/build_production
+/node_modules
+/vendor
+/.idea
+.env
+.DS_Store
