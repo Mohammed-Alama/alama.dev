@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://alama.dev/conferences/vue-conf-2023">
+    <meta name="description" content="A deep dive into Vue 3&#039;s performance optimizations and practical techniques for building faster Vue applications.">
+    <title>Vue 3 Performance Optimizations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/terminal-style.css">
+</head>
+<body>
+<div class="terminal-window">
+    <div class="terminal-header">
+        <div class="terminal-buttons">
+            <div class="terminal-button terminal-close"></div>
+            <div class="terminal-button terminal-minimize"></div>
+            <div class="terminal-button terminal-maximize"></div>
+        </div>
+        <div class="terminal-title">alama@world: ~/</div>
+    </div>
+    <div class="terminal-content">
+                <nav class="terminal-nav">
+    <div class="terminal-prompt">
+        <span>cd ./conferences</span>
+    </div>
+    <div class="terminal-nav-links">
+        <a href="/" class="terminal-nav-link ">home</a>
+        <a href="/projects" class="terminal-nav-link ">projects</a>
+        <a href="/experience"
+           class="terminal-nav-link ">experience</a>
+        <a href="/books" class="terminal-nav-link ">books</a>
+        <a href="/conferences"
+           class="terminal-nav-link active">conferences</a>
+        <a href="/github" class="terminal-nav-link ">github</a>
+        <a href="/contact" class="terminal-nav-link ">contact</a>
+    </div>
+</nav> 
+    <div class="terminal-page">
+        <div class="terminal-section">
+            <div class="flex items-start">
+                                    <div class="conference-cover">
+                        <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Vue 3 Performance Optimizations thumbnail">
+                    </div>
+                
+                <div class="flex-grow">
+                    <h1 class="main-title">
+                        <span class="text-terminal-secondary">#</span> Vue 3 Performance Optimizations <span class="cursor"></span>
+                    </h1>
+                    <div class="text-terminal-dim">by Evan You</div>
+
+                    <div class="conference-meta mt-4">
+                                                    <div class="conference-meta-item">
+                                <i class="far fa-calendar-check"></i> Watched
+                                on May 12, 2023
+                            </div>
+                        
+                                                    <div class="conference-meta-item">
+                                <i class="fas fa-star"></i> Rating:
+                                                                                                            <i class="fas fa-star text-terminal-accent"></i>
+                                                                                                                                                <i class="fas fa-star text-terminal-accent"></i>
+                                                                                                                                                <i class="fas fa-star text-terminal-accent"></i>
+                                                                                                                                                <i class="fas fa-star text-terminal-accent"></i>
+                                                                                                                                                <i class="fas fa-star text-terminal-accent"></i>
+                                                                                                </div>
+                                            </div>
+
+                                            <div class="mt-3 flex flex-wrap gap-2">
+                                                            <span class="category-tag">
+                        Vue.js
+                    </span>
+                                                            <span class="category-tag">
+                        JavaScript
+                    </span>
+                                                            <span class="category-tag">
+                        Frontend
+                    </span>
+                                                            <span class="category-tag">
+                        Performance
+                    </span>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="terminal-section">
+            <h2 class="section-heading">Description</h2>
+            <p>A deep dive into Vue 3&#039;s performance optimizations and practical techniques for building faster Vue applications.</p>
+        </div>
+
+                    <div class="terminal-section">
+                <h2 class="section-heading">Venue</h2>
+                <p>VueConf US 2023</p>
+            </div>
+        
+                    <div class="terminal-section">
+                <h2 class="section-heading">Favorite Quote</h2>
+                <div class="conference-quote">
+                    "Performance isn&#039;t just about speed; it&#039;s about creating a delightful user experience."
+                </div>
+            </div>
+        
+                    <div class="terminal-section">
+                <h2 class="section-heading">Video Link</h2>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+                   class="text-terminal-link hover:text-terminal-link-hover">
+                    <i class="fas fa-external-link-alt"></i> Watch on www.youtube.com
+                </a>
+            </div>
+        
+        <div class="terminal-section">
+            <div class="terminal-prompt">
+                <span>cat notes.md</span>
+            </div>
+
+            <h2 class="section-heading">My Notes</h2>
+
+            <div class="conference-notes">
+                <h2>Key Takeaways</h2>
+
+<h3>Composition API Benefits</h3>
+
+<p>Evan demonstrated several key performance benefits of the Composition API over the Options API:</p>
+
+<ul>
+<li>Better tree-shaking support</li>
+<li>More efficient reactivity system</li>
+<li>Improved memory usage patterns</li>
+<li>Easier code organization for complex components</li>
+</ul>
+
+<h3>Compiler Improvements</h3>
+
+<p>Vue 3's compiler has several optimizations that make runtime performance better:</p>
+
+<ul>
+<li>Static hoisting of unchanging elements</li>
+<li>Patch flags for more efficient updates</li>
+<li>Block tree optimization for reduced memory allocation</li>
+<li>Better static content handling</li>
+</ul>
+
+<h3>Practical Tips</h3>
+
+<p>Several practical tips that I can immediately apply to my projects:</p>
+
+<ol>
+<li>Use <code>v-once</code> for truly static content</li>
+<li>Apply <code>v-memo</code> for conditional re-rendering optimizations</li>
+<li>Implement virtualization for long lists</li>
+<li>Use <code>shallowRef</code> and <code>shallowReactive</code> when deep reactivity isn't needed</li>
+<li>Lazy load components for better initial page load</li>
+</ol>
+
+<h2>How I'll Apply This</h2>
+
+<p>I plan to refactor our dashboard component using these techniques. Currently, it renders hundreds of items and can feel
+sluggish. By applying virtualization and the proper use of <code>v-memo</code>, I should be able to significantly improve the
+performance.</p>
+
+<p>Additionally, I'll review our largest components and see if we can benefit from moving more of them to the Composition
+API, particularly those with complex state management needs.</p>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <a href="/conferences" class="terminal-nav-link">
+                <i class="fas fa-arrow-left"></i> Back to all conferences
+            </a>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
