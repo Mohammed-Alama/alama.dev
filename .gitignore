@@ -8,7 +8,7 @@ npm-debug.log
 
 # Optional ignores
 # /build_staging/
-/build_production/
+# /build_production/
 # /source/assets/build/
 
 # Environment variables
