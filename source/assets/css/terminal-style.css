@@ -68,15 +68,15 @@ body {
 }
 
 .terminal-close {
-    background-color: #f38ba8;
+    background-color: #ff6b68;
 }
 
 .terminal-minimize {
-    background-color: #f9e2af;
+    background-color: #ffc66d;
 }
 
 .terminal-maximize {
-    background-color: #a6e3a1;
+    background-color: #6a8759;
 }
 
 .terminal-title {
