@@ -15,7 +15,8 @@ MESSAGE ?= Update site content
 help:
 	@echo "Available targets:"
 	@echo "  help   - Show this help message"
-	@echo "  dev    - Build production site"
+	@echo "  serve  - Serve development site"
+	@echo "  dev    - Build development site"
 	@echo "  prod   - Build production site"
 	@echo "  deploy - Deploy to Netlify (accepts MESSAGE='commit message')"
 

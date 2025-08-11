@@ -40,9 +40,6 @@
                         <p class="text-terminal-dim">Available for remote work worldwide</p>
                     </div>
                     <div class="mb-6">
-                        {{--                    <div class="terminal-prompt">--}}
-                        {{--                        <span>echo "Looking forward to hearing from you!"</span>--}}
-                        {{--                    </div>--}}
                         <div class="mt-2 text-terminal-secondary">
                             Looking forward to hearing from you!
                         </div>
