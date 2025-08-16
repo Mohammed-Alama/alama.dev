@@ -161,7 +161,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--terminal-accent);
     font-weight: 700;
     margin-top: 1.5em;
@@ -183,13 +188,17 @@ h3 {
     line-height: 1.4;
 }
 
-h1::before, h2::before, h3::before {
+h1::before,
+h2::before,
+h3::before {
     content: "# ";
     color: var(--terminal-secondary);
     font-weight: normal;
 }
 
-h4::before, h5::before, h6::before {
+h4::before,
+h5::before,
+h6::before {
     content: "## ";
     color: var(--terminal-secondary);
     font-weight: normal;
@@ -244,7 +253,8 @@ ol li::before {
 }
 
 /* Code */
-pre, code {
+pre,
+code {
     background-color: var(--terminal-code-bg);
     border-radius: 4px;
     padding: 0.2rem 0.4rem;
@@ -274,9 +284,12 @@ pre code {
 }
 
 @keyframes blink {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
@@ -582,6 +595,10 @@ pre code {
     }
 }
 
+.flex-end {
+    align-items: end;
+}
+
 .transition {
     transition-property: color, background-color, border-color;
     transition-duration: 200ms;
@@ -752,10 +769,12 @@ pre code {
         opacity: 0.6;
         transform: scale(0.95);
     }
+
     50% {
         opacity: 1;
         transform: scale(1.05);
     }
+
     100% {
         opacity: 0.6;
         transform: scale(0.95);
@@ -974,4 +993,4 @@ pre code {
 
 .conference-cover:hover img {
     filter: brightness(1.1);
-} 
+}

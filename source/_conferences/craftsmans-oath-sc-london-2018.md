@@ -3,7 +3,7 @@ extends: _layouts.conference
 section: content
 title: "The Craftsman's Oath"
 presenter: "Robert C. Martin (Uncle Bob)"
-date_watched: 1735689600
+date_watched: 1754863764
 venue: "SC London Conference 2018"
 video_url: https://www.youtube.com/watch?v=17vTLSkXTOo
 categories:
